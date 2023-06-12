@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from 'react-icons/fa'
+import {Sahil} from '../../assets/index'
 const Home = () => {
 
     const [text] = useTypewriter({
@@ -12,11 +13,22 @@ const Home = () => {
     });
 
     return (
-        <section id="home" className='w-full py-20 flex border-b-[1px] border-b-white'>
-            <div className='w-1/2 flex flex-col gap-20'>
+        <section id="home" className='w-full pt-10 pb-20 flex border-b-[1px] border-b-white'>
+            {/* <div className='w-1/2 border'>
+                <div className='p-20'>
+                    <img src={Sahil} alt="Sahil" className='rounded-xl'/>
+                </div>
+            </div> */}
+            <div className='w-1/2 flex justify-center items-center'>
+                <img
+                    className='w-[500px] h-[600px] z-10 rounded-full' 
+                    src={Sahil} 
+                    alt="My Image" />
+            </div>
+            <div className='w-1/2 flex flex-col gap-20 '>
                 <div className='flex flex-col gap-5'>
-                    <h4 className='text-lg font-normal'>Welcome to my world</h4>
-                    <h1 className='text-6xl font-bold text-white'>
+                    {/* <h4 className='text-lg font-normal'>Welcome to my world</h4> */}
+                    <h1 className='text-6xl font-bold text-white mt-20'>
                         Hi, I'm
                         <span className='text-yellowColor capitalize'> Sahil</span>
                     </h1>
