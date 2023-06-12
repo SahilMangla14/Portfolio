@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
-
+import Skills from "./components/skills/Skills"
 function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-greyColor">
@@ -12,6 +12,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Skills />
       </div>
     </div>
   );
