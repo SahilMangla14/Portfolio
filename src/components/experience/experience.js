@@ -11,7 +11,7 @@ const experience = () => {
                     <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize"><span className='text-yellowColor capitalize'>My </span>Experience</h1>
                 </div>
             </div>
-            <div className="grid grid-cols-2 gap-14">
+            <div className="grid grid-cols-1 sml:grid-cols-2 gap-14">
                 <div className='h-auto bg-boxColor rounded-md'>
                     <div className='flex justify-center align-center my-3'>
                         <span className='font-bold hover:text-yellowColor'>CODING CLUB COORDINATOR</span>

@@ -13,7 +13,7 @@ const Projects = () => {
                         <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize"><span className='text-yellowColor capitalize'>My</span> Projects</h1>
                     </div>
                 </div>
-                <div className='grid grid-cols-3 gap-14'>
+                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-14'>
                     <ProjectsCard
                         title="SOCIAL MEDIA CLONE"
                         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
