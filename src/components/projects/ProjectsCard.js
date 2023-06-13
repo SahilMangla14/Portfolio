@@ -11,7 +11,7 @@ const ProjectsCard = ({ title, des, src }) => {
       {/* My Project */}
       <div className='w-full mt-5 flex flex-col gap-6'>
         <div className='flex items-center justify-between'>
-          <h3 className='font-bold text-lg'>{title}</h3>
+          <h3 className='font-bold text-lg hover:text-yellowColor'>{title}</h3>
           
         </div>
         <div>
