@@ -1,9 +1,17 @@
-import React from 'react'
-
+import React, {useEffect} from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const About = () => {
+
+  useEffect(()=>{
+    Aos.init({
+      duration: 1000,
+      offset: 300
+    })
+  },[])
   return (
     <section id="about" className='w-full h-[700px] pt-10 pb-20 sml:flex'>
-      <div className='w-full sml:w-1/2 flex justify-center items-center'>
+      <div className='w-full sml:w-1/2 flex justify-center items-center' data-aos="fade-right">
         <h1 className='text-6xl font-bold text-white mt-15 sml:pr-3 ld:pr-0'>About <span className='text-yellowColor capitalize'>Me</span></h1>
       </div>
       <div className='w-full sml:w-1/2 pt-20'>
@@ -17,7 +25,7 @@ const About = () => {
             </div>
             <div className='flex pl-2'>
               <h2 className='font-bold text-white'>Name: </h2>
-              <span className='pl-2 flex items-center font-medium'>Sahil</span>
+              <span className='pl-2 flex items-center font-medium' >Sahil</span>
             </div>
           </div>
           <div className='w-full mb-3 sml:mb-0 group flex items-center'>

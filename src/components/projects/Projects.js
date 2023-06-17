@@ -1,16 +1,27 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import ProjectsCard from './ProjectsCard'
 import { Sahil } from '../../assets/index'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Projects = () => {
+
+    useEffect(()=>{
+        Aos.init({
+          duration: 1000,
+          offset: 180
+        })
+      },[])
+
     return (
         <div>
             <section id="projects" className='w-full py-10 border-b-[1px] border-b-black'>
                 <div className='flex items-center justify-center text-center'>
                     <div className="flex flex-col gap-4 font-titleFont mb-14">
-                        <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
+                        <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="fade-down">
                             My Projects
                         </h3>
-                        <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize"><span className='text-yellowColor capitalize'>My</span> Projects</h1>
+                        <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize" data-aos="fade-down"><span className='text-yellowColor capitalize'>My</span> Projects</h1>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-14'>

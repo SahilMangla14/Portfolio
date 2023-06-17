@@ -1,4 +1,6 @@
-import React,{useState} from 'react'
+import React, {useEffect, useState} from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { FaLinkedinIn, FaInstagram, FaGithub } from 'react-icons/fa'
 import {Link, BrowserRouter} from 'react-router-dom';
 
@@ -16,6 +18,13 @@ const Contact = () => {
             .toLocaleLowerCase()
             .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
     };
+
+    useEffect(()=>{
+        Aos.init({
+          duration: 1000,
+          offset: 180
+        })
+      },[])
 
 
     const handleSend = (e) => {
@@ -47,15 +56,15 @@ const Contact = () => {
         <section id="contact" className='w-full py-10 border-b-[1px] border-b-black '>
             <div className='flex items-center justify-center text-center'>
                 <div className="flex flex-col gap-4 font-titleFont mb-14">
-                    <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
-                        Contact
+                    <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="fade-down">
+                        Contact Me
                     </h3>
-                    <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize"><span className='text-yellowColor capitalize'>Contact</span> Me</h1>
+                    <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize" data-aos="fade-down"><span className='text-yellowColor capitalize' >Contact</span> Me</h1>
                 </div>
             </div>
             <div className='w-full h-auto flex-row sml:flex sml:justify-center'>
                 <div className='w-full sml:w-1/2 flex flex-col items-center justify-center'>
-                    <h1 className='text-6xl font-bold text-white md:pl-10 lg:pl-0 mt-20 mb-10'>Get In <span className='text-yellowColor capitalize'>Touch</span></h1>
+                    <h1 className='text-6xl font-bold text-white md:pl-10 lg:pl-0 mt-20 mb-10' data-aos="fade-right">Get In <span className='text-yellowColor capitalize'>Touch</span></h1>
                     <div>
                     <BrowserRouter>
                         <div className="flex gap-4">
