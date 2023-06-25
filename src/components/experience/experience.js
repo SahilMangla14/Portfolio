@@ -27,7 +27,7 @@ const Experience = () => {
                         <span className='font-bold hover:text-yellowColor'>CODING CLUB COORDINATOR</span>
                     </div>
                     <div className='px-2 bg-[#292828] rounded-md mx-10 my-3 py-4 px-4'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum harum vitae quae minus excepturi explicabo quibusdam quas, veritatis iusto! Fugit dolores voluptate minus. Aspernatur reprehenderit impedit vitae maiores excepturi exercitationem.
+                    During my tenure as the Coordinator of the Coding Club at IIT Ropar, I took numerous sessions on problem-solving techniques and algorithms, providing valuable guidance to the members. Alongside my dedicated team, we successfully organized several coding competitions, fostering a competitive spirit and nurturing the coding culture within the club.
                     </div>
                 </div>
                 <div className='h-auto bg-boxColor rounded-md' data-aos="fade-left">
@@ -35,7 +35,7 @@ const Experience = () => {
                         <span className='font-bold hover:text-yellowColor'>ISMP MENTOR</span>
                     </div>
                     <div className='px-2 bg-[#292828] rounded-md mx-10 my-3 py-4 px-4'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum harum vitae quae minus excepturi explicabo quibusdam quas, veritatis iusto! Fugit dolores voluptate minus. Aspernatur reprehenderit impedit vitae maiores excepturi exercitationem.
+                    As a Mentor within the Institute Student Mentorship Program (ISMP) at our college, I had the privilege of guiding and mentoring students throughout my tenure. I consistently made myself available to them, providing support and guidance whenever needed. Through this position, I had the opportunity to positively impact the lives of my mentees, fostering their personal growth and academic success.
                     </div>
                 </div>
                 <div className='h-auto bg-boxColor rounded-md' data-aos="fade-right">
@@ -43,7 +43,7 @@ const Experience = () => {
                         <span className='font-bold hover:text-yellowColor'>SOFTCOM SUPER-COORDINATOR</span>
                     </div>
                     <div className='px-2 bg-[#292828] rounded-md mx-10 my-3 py-4 px-4'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum harum vitae quae minus excepturi explicabo quibusdam quas, veritatis iusto! Fugit dolores voluptate minus. Aspernatur reprehenderit impedit vitae maiores excepturi exercitationem.
+                    In my role as the Super Coordinator of the Softcom Club at our college, I hold the responsibility of guiding club members in various technical skills, including web development, computer vision, and artificial intelligence etc. Through the organization of workshops, guest lectures, and hands-on sessions, I created a conducive learning environment that facilitated their growth and proficiency in these cutting-edge technologies.
                     </div>
                 </div>
                 <div className='h-auto bg-boxColor rounded-md' data-aos="fade-left">
@@ -51,7 +51,7 @@ const Experience = () => {
                         <span className='font-bold'>STUDENT COUNCIL TECH TEAM</span>
                     </div>
                     <div className='px-2 bg-[#292828] rounded-md mx-10 my-3 py-4 px-4'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum harum vitae quae minus excepturi explicabo quibusdam quas, veritatis iusto! Fugit dolores voluptate minus. Aspernatur reprehenderit impedit vitae maiores excepturi exercitationem.
+                    As a member of the Student Council Tech Team, I manage websites and handle all the technical aspects for various student bodies in our college. This involves regularly updating and providing all the necessary information, including event details, announcements, and resources, to ensure accurate and up-to-date content.
                     </div>
                 </div>
             </div>

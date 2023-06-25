@@ -11,7 +11,14 @@ import express from './images/express.png'
 import bootstrap3 from './images/bootstrap.png'
 import opencv from './images/opencv.png'
 import numpy from './images/numpy.png'
-
+import hms from './images/hms.png'
+import riscv_img from './images/riscv_img.png'
+import cbir from './images/cbir.png'
+import lzw from './images/lzw.png'
+import morphing from './images/morphing.png'
+import boha from './images/boha.png'
+import task_manager_api from './images/task_manager_api.png'
+import compiler from './images/compiler.png'
 export {
     Sahil,
     c,
@@ -26,4 +33,12 @@ export {
     bootstrap3,
     opencv,
     numpy,
+    hms,
+    riscv_img,
+    cbir,
+    lzw,
+    morphing,
+    boha,
+    task_manager_api,
+    compiler
 }

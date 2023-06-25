@@ -47,9 +47,9 @@ const About = () => {
               </span>
               {/* <span> hello world</span> */}
             </div>
-            <div className='flex pl-2'>
-              <h2 className='font-bold text-white'>Name: </h2>
-              <span className='pl-2 flex items-center font-medium'>Sahil</span>
+            <div className='flex pl-2 flex-wrap'>
+              <h2 className='font-bold text-white'>Email Id: </h2>
+              <span className='pl-2 flex items-center font-medium flex flex-wrap'>2021csb1128@iitrpr.ac.in</span>
             </div>
           </div>
           <div className='w-full mb-3 sml:mb-0 group flex items-center'>
@@ -60,8 +60,8 @@ const About = () => {
               {/* <span> hello world</span> */}
             </div>
             <div className='flex justify-evenly items-center pl-2'>
-              <h2 className='font-bold text-white'>Name: </h2>
-              <span className='pl-2 flex items-center font-medium'>Sahil</span>
+              <h2 className='font-bold text-white'>College: </h2>
+              <span className='pl-2 flex items-center font-medium'>IIT ROPAR</span>
             </div>
           </div>
           <div className='w-full mb-3 sml:mb-0 group  flex items-center'>
@@ -71,9 +71,9 @@ const About = () => {
               </span>
               {/* <span> hello world</span> */}
             </div>
-            <div className='flex pl-2'>
-              <h2 className='font-bold text-white'>Name: </h2>
-              <span className='pl-2 flex items-center font-medium'>Sahil</span>
+            <div className='flex pl-2 flex-wrap'>
+              <h2 className='font-bold text-white'>Brance: </h2>
+              <span className='pl-2 flex items-center font-medium flex-wrap'>Computer Science and Engineering</span>
             </div>
           </div>
           <div className='w-full mb-3 sml:mb-0 group flex items-center'>
@@ -84,8 +84,8 @@ const About = () => {
               {/* <span> hello world</span> */}
             </div>
             <div className='flex pl-2'>
-              <h2 className='font-bold text-white'>Name: </h2>
-              <span className='pl-2 flex items-center font-medium'>Sahil</span>
+              <h2 className='font-bold text-white'>Phone No: </h2>
+              <span className='pl-2 flex items-center font-medium'>9817634727</span>
             </div>
           </div>
         </div>

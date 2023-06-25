@@ -45,7 +45,8 @@ const Home = () => {
                         />
                     </h2>
                     <p className='text-base font-bodyFont leading-6 tracking-wide'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi voluptates inventore velit quod cupiditate alias delectus eaque dolor, eius incidunt quam neque eum iste commodi quo est maiores maxime!
+                        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi voluptates inventore velit quod cupiditate alias delectus eaque dolor, eius incidunt quam neque eum iste commodi quo est maiores maxime! */}
+                        I like to do web development and solve complex problems. I am always enthusiastic about learning new things and working on exciting projects. I like to face new challenges and embrace opportunities that come my way.
                     </p>
                 </div>
                 <div>
@@ -54,7 +55,7 @@ const Home = () => {
                     </h2>
                     <BrowserRouter>
                         <div className="flex gap-4">
-                            <Link to="https://www.linkedin.com/in/sahil-mangla-2a074b238/">
+                            <Link to="https://www.linkedin.com/in/sahilmangla/">
                                 <span className="homeIcon bg-boxColor">
                                     <FaLinkedinIn />
 
