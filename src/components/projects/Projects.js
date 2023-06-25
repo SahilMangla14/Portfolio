@@ -35,7 +35,7 @@ const Projects = () => {
                         title="RISC V SIMULATOR"
                         des="The RISC-V simulator is a computer architecture project that showcases the remarkable performance improvements of modern computer hardware resulting from optimizations such as pipelining and caching."
                         src={riscv_img}
-                        github_link= "https://github.com/Harshit1092/RISC_V-Simulator"
+                        github_link= "https://github.com/SahilMangla14/RISC_V-Simulator"
                     />
                     <ProjectsCard
                         title="CONTENT BASED IMAGE RETRIEVAL"
