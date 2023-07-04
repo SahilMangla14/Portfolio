@@ -47,7 +47,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className='h-auto bg-boxColor rounded-md' data-aos="fade-left">
-                    <div className='flex justify-center align-center my-3 hover:text-yellowColor'>
+                    <div className='flex justify-center items-center my-3 hover:text-yellowColor'>
                         <span className='font-bold'>STUDENT COUNCIL TECH TEAM</span>
                     </div>
                     <div className='px-2 bg-[#292828] rounded-md mx-10 my-3 py-4 px-4'>

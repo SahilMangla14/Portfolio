@@ -19,6 +19,15 @@ import morphing from './images/morphing.png'
 import boha from './images/boha.png'
 import task_manager_api from './images/task_manager_api.png'
 import compiler from './images/compiler.png'
+import eertree from './images/eertree.png'
+import git from './images/git.png'
+import github from './images/github.png'
+import vs from './images/vs.png'
+import pip from './images/pip.png'
+import npm from './images/npm.png'
+import jupyter from './images/jupyter.png'
+import heroku from './images/heroku.png'
+import tailwind from './images/tailwind.png'
 export {
     Sahil,
     c,
@@ -40,5 +49,14 @@ export {
     morphing,
     boha,
     task_manager_api,
-    compiler
+    compiler,
+    eertree,
+    git,
+    github,
+    vs,
+    jupyter,
+    heroku,
+    pip,
+    npm,
+    tailwind
 }

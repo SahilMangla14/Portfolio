@@ -1,6 +1,6 @@
 import React , {useEffect} from 'react'
 import SkillCard from './SkillCard'
-import {c, cpp, python, html, css, javacript, reactjs, express, mongodb, bootstrap3, opencv, numpy} from '../../assets/index'
+import {c, cpp, python, html, css, javacript, reactjs, express, mongodb, bootstrap3, opencv, numpy, git, github,vs,heroku,jupyter,pip,npm, tailwind} from '../../assets/index'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -40,6 +40,7 @@ const Skills = () => {
                     <span className='mr-3'>Express Js </span><span className='mr-5'><img src={express} alt="C" /></span> 
                     <span className='mr-3'>MongoDB </span><span className='mr-5'><img src={mongodb} alt="C" /></span> 
                     <span className='mr-3'>Bootstrap </span><span className='mr-5'><img src={bootstrap3} alt="C" /></span> 
+                    <span className='mr-3'>Tailwind Css </span><span className='mr-5'><img src={tailwind} alt="C" /></span> 
                 </div>
             </div>
             <div className='mb-3'>
@@ -52,10 +53,14 @@ const Skills = () => {
             </div>
             <div className='mb-3'>
             <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg flex  flex-wrap items-center bg-gradient-to-r bg-boxColor group hover:bg-gradient-to-b hover:from-yellowColor   duration-1000" data-aos="fade-left">
-                    <span className='font-bold mr-10'>Other Skills</span>   
-                    <span className='mr-3'>Leadership</span>
-                    <span className='mr-3'>Team Management</span>
-                    <span className='mr-3'>Problem Solving </span>
+                    <span className='font-bold mr-10'>Tools</span>   
+                    <span className='mr-3'>Git</span><span className='mr-5'><img src={git} alt="git" /></span> 
+                    <span className='mr-3'>Github</span><span className='mr-5'><img src={github} alt="git" /></span> 
+                    <span className='mr-3'>Vs Code</span><span className='mr-5'><img src={vs} alt="git" /></span> 
+                    <span className='mr-3'>Jupyter Notebook</span><span className='mr-5'><img src={jupyter} alt="git" /></span> 
+                    <span className='mr-3'>Heroku</span><span className='mr-5'><img src={heroku} alt="git" /></span> 
+                    <span className='mr-3'>npm</span><span className='mr-5'><img src={npm} alt="git" /></span> 
+                    <span className='mr-3'>pip</span><span className='mr-5'><img src={pip} alt="git" /></span> 
                 </div>
             </div>
         </section>

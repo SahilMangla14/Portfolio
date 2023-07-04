@@ -3,7 +3,7 @@ import ProjectsCard from './ProjectsCard'
 import { Sahil } from '../../assets/index'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import { hms, riscv_img, cbir, morphing, boha, lzw, task_manager_api, compiler  } from '../../assets/index'
+import { hms, riscv_img, cbir, morphing, boha, lzw, task_manager_api, compiler, eertree  } from '../../assets/index'
 const Projects = () => {
 
     useEffect(()=>{
@@ -72,6 +72,12 @@ const Projects = () => {
                         des="The Task Manager API project, implemented using Node.js and Express, provides a powerful and flexible backend solution for managing tasks. It offers all the CRUD operations making it an ideal solution for efficient task management."
                         src={task_manager_api}
                         github_link= "https://github.com/SahilMangla14/TASK-MANAGER-API"
+                    />
+                    <ProjectsCard
+                        title="EERTREE"
+                        des="EERTREE is a new linear-size data structure which provides a fast access to all palindromic substrings of a string or a set of strings. This structure inherits some ideas from the construction of both the suffix trie and suffix tree. Using this structure, it provides simple and efficient solutions for a number of problems involving palindromes."
+                        src={eertree}
+                        github_link= "https://github.com/SahilMangla14/eertree"
                     />
                 </div>
             </section>
