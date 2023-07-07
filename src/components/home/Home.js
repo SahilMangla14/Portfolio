@@ -28,7 +28,7 @@ const Home = () => {
                     alt="My Image" />
             </div>
             <div className='w-full lgl:w-1/2 flex flex-col gap-20 '>
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-5 items-center justify-center lgl:items-start'>
                     {/* <h4 className='text-lg font-normal'>Welcome to my world</h4> */}
                     <h1 className='text-6xl font-bold text-white mt-20'>
                         Hi, I'm
@@ -49,7 +49,7 @@ const Home = () => {
                         I like to do web development and solve complex problems. I am always enthusiastic about learning new things and working on exciting projects. I like to face new challenges and embrace opportunities that come my way.
                     </p>
                 </div>
-                <div>
+                <div className='flex flex-col items-center lgl:items-start'>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
                         Connect with me
                     </h2>
