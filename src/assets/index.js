@@ -28,6 +28,13 @@ import npm from './images/npm.png'
 import jupyter from './images/jupyter.png'
 import heroku from './images/heroku.png'
 import tailwind from './images/tailwind.png'
+import infonest from './images/infonest.png'
+import adobe from './images/adobe.png'
+import devrev from './images/devrev.png'
+import gomory from './images/gomory.png'
+import social from './images/social.png'
+import iot from './images/iot.png'
+
 export {
     Sahil,
     c,
@@ -58,5 +65,11 @@ export {
     heroku,
     pip,
     npm,
-    tailwind
+    tailwind,
+    infonest,
+    adobe,
+    devrev,
+    gomory,
+    social,
+    iot
 }

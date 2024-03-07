@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+
 const About = () => {
 
   useEffect(()=>{
@@ -91,7 +92,7 @@ const About = () => {
         </div>
 
         <div className='w-full mt-6'>
-          <div className='h-[25px] ml-[25px] w-[90%]  sml:h-[25px] sml:ml-[55px] sml:w-[40%]  mdl:h-[30px] mdl:ml-[55px] mdl:w-[35%]  xl:h-[35px] xl:ml-[52px] xl:w-[20%] bg-yellowColor text-black flex items-center justify-center rounded-xl'>Download CV</div>
+          <a href="https://drive.google.com/file/d/1M-fDG6cmaN6fLDJRBLvLYhEHkk3xE6QS/view?usp=drive_link"><div className='h-[25px] ml-[25px] w-[90%]  sml:h-[25px] sml:ml-[55px] sml:w-[40%]  mdl:h-[30px] mdl:ml-[55px] mdl:w-[35%]  xl:h-[35px] xl:ml-[52px] xl:w-[20%] bg-yellowColor text-black flex items-center justify-center rounded-xl'>Download CV</div></a>
         </div>
       </div>
 
