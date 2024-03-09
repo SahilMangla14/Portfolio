@@ -1,23 +1,29 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4234caa9.css",
-    "main.js": "/Portfolio/static/js/main.60d16a92.js",
+    "main.js": "/Portfolio/static/js/main.27fef045.js",
     "static/media/Sahil.JPG": "/Portfolio/static/media/Sahil.013370d5bd2b507cc943.JPG",
     "static/media/boha.png": "/Portfolio/static/media/boha.77934058fadb76a4f029.png",
     "static/media/lzw.png": "/Portfolio/static/media/lzw.27b2a8ff89f517d68373.png",
     "static/media/morphing.png": "/Portfolio/static/media/morphing.b5dfca276a317f4ef923.png",
+    "static/media/infonest.png": "/Portfolio/static/media/infonest.ef646c7d12b5c697aaa4.png",
     "static/media/riscv_img.png": "/Portfolio/static/media/riscv_img.b09be970b489fac06e18.png",
+    "static/media/social.png": "/Portfolio/static/media/social.7a6d8a5645d12da349bd.png",
+    "static/media/gomory.png": "/Portfolio/static/media/gomory.0b31e2463bf82cf658fc.png",
     "static/media/cbir.png": "/Portfolio/static/media/cbir.0fa9088829681cac5cb6.png",
+    "static/media/devrev.png": "/Portfolio/static/media/devrev.33b5d232c1723b7856cb.png",
     "static/media/eertree.png": "/Portfolio/static/media/eertree.b66d7d48418397190b29.png",
     "static/media/hms.png": "/Portfolio/static/media/hms.e8f8ed1d9d45b8edd56e.png",
+    "static/media/iot.png": "/Portfolio/static/media/iot.663843cf6e76792be3e2.png",
+    "static/media/adobe.png": "/Portfolio/static/media/adobe.f53e6053df4c55ba97b0.png",
     "static/media/compiler.png": "/Portfolio/static/media/compiler.0c1f4290c99e327855a0.png",
     "static/media/task_manager_api.png": "/Portfolio/static/media/task_manager_api.6e68f3da58455e9ef7a1.png",
     "index.html": "/Portfolio/index.html",
     "main.4234caa9.css.map": "/Portfolio/static/css/main.4234caa9.css.map",
-    "main.60d16a92.js.map": "/Portfolio/static/js/main.60d16a92.js.map"
+    "main.27fef045.js.map": "/Portfolio/static/js/main.27fef045.js.map"
   },
   "entrypoints": [
     "static/css/main.4234caa9.css",
-    "static/js/main.60d16a92.js"
+    "static/js/main.27fef045.js"
   ]
 }
